@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kuliner.kulinerjambi2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ThehokActivity"
+            android:label="@string/title_activity_thehok" >
+        </activity>
+        <activity
+            android:name=".TalangActivity"
+            android:label="@string/title_activity_talang" >
+        </activity>
+        <activity
+            android:name=".TanjungActivity"
+            android:label="@string/title_activity_tanjung" >
+        </activity>
+        <activity
+            android:name=".SipinActivity"
+            android:label="@string/title_activity_sipin" >
+        </activity>
+        <activity
+            android:name=".NasigorrajActivity"
+            android:label="@string/title_activity_nasigorraj" >
+        </activity>
+        <activity
+            android:name=".Ahui1Activity"
+            android:label="@string/title_activity_ahui1" >
+        </activity>
+        <activity
+            android:name=".Atong1Activity"
+            android:label="@string/title_activity_atong1" >
+        </activity>
+        <activity
+            android:name=".Bakso1Activity"
+            android:label="@string/title_activity_bakso1" >
+        </activity>
+        <activity
+            android:name=".ChatimeActivity"
+            android:label="@string/title_activity_chatime" >
+        </activity>
+        <activity
+            android:name=".DineChatActivity"
+            android:label="@string/title_activity_dine_chat" >
+        </activity>
+        <activity
+            android:name=".HausteaActivity"
+            android:label="@string/title_activity_haustea" >
+        </activity>
+        <activity
+            android:name=".KFCActivity"
+            android:label="@string/title_activity_kfc" >
+        </activity>
+        <activity
+            android:name=".Kofeluv1Activity"
+            android:label="@string/title_activity_kofeluv1" >
+        </activity>
+        <activity
+            android:name=".KopiActivity"
+            android:label="@string/title_activity_kopi" >
+        </activity>
+        <activity
+            android:name=".Martabak1Activity"
+            android:label="@string/title_activity_martabak1" >
+        </activity>
+        <activity
+            android:name=".MiehijauActivity"
+            android:label="@string/title_activity_miehijau" >
+        </activity>
+        <activity
+            android:name=".Mitra1Activity"
+            android:label="@string/title_activity_mitra1" >
+        </activity>
+        <activity
+            android:name=".Pempek1Activity"
+            android:label="@string/title_activity_pempek1" >
+        </activity>
+        <activity
+            android:name=".PerahunelayanActivity"
+            android:label="@string/title_activity_perahunelayan" >
+        </activity>
+        <activity
+            android:name=".PizaActivity"
+            android:label="@string/title_activity_piza" >
+        </activity>
+        <activity
+            android:name=".SaimenActivity"
+            android:label="@string/title_activity_saimen" >
+        </activity>
+        <activity
+            android:name=".SarinandeActivity"
+            android:label="@string/title_activity_sarinande" >
+        </activity>
+        <activity
+            android:name=".SdrhanaActivity"
+            android:label="@string/title_activity_sdrhana" >
+        </activity>
+        <activity
+            android:name=".SerabiActivity"
+            android:label="@string/title_activity_serabi" >
+        </activity>
+        <activity
+            android:name=".SiobakActivity"
+            android:label="@string/title_activity_siobak" >
+        </activity>
+        <activity
+            android:name=".SrwijayaActivity"
+            android:label="@string/title_activity_srwijaya" >
+        </activity>
+        <activity
+            android:name=".SriwijayaActivity"
+            android:label="@string/title_activity_sriwijaya" >
+        </activity>
+        <activity
+            android:name=".Thehok2Activity"
+            android:label="@string/title_activity_thehok2" >
+        </activity>
+        <activity
+            android:name=".Tanjung2Activity"
+            android:label="@string/title_activity_tanjung2" >
+        </activity>
+        <activity
+            android:name=".Talang2Activity"
+            android:label="@string/title_activity_talang2" >
+        </activity>
+        <activity
+            android:name=".Talang3Activity"
+            android:label="@string/title_activity_talang3" >
+        </activity>
+        <activity
+            android:name=".Talang4Activity"
+            android:label="@string/title_activity_talang4" >
+        </activity>
+        <activity
+            android:name=".Sipin2Activity"
+            android:label="@string/title_activity_sipin2" >
+        </activity>
+        <activity
+            android:name=".Sipin3Activity"
+            android:label="@string/title_activity_sipin3" >
+        </activity>
+        <activity
+            android:name=".Sipin4Activity"
+            android:label="@string/title_activity_sipin4" >
+        </activity>
+    </application>
+
+</manifest>

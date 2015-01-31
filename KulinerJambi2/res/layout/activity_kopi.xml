@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kuliner.kulinerjambi2.KopiActivity" >
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:clickable="true"
+    android:onClick="openmain"
+    android:text="KULINER Jambi"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:onClick="openthehok"
+        android:text="Thehok" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toRightOf="@+id/button1"
+        android:onClick="opentalang"
+        android:text="Tlg Bnjr" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:onClick="opensipin"
+        android:text="Sipin" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
+        android:onClick="opentjg"
+        android:text="Tjg Pinang" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="17dp"
+        android:text="Kopi Oey"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="14dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/reckopioey" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="23dp"
+        android:text="Rating overall:****\n
+-Rating :****\n
+-Taste  :****\n
+-Service:***\n
+-Hygine :***\n
+-Price  :***\n
+Lokasi: Jalan Sultan Agung 29, Pasar Jambi (D), Jambi City, Jambi, Indonesia
+Review:
+Weltevreden, Batavia. 1928 – Kopitiam berarti kedai kopi. Dalam dialek Hokkian, kedai kopi diseboet ka fe tien. Orang-orang Melajoe dan Straits Chinese di Semenandjoeng Malaja lantas menjeboetnja sebagai “kopitiam”. Oey adalah plesetan dari nama ijang poenja ini kedai : Bondan Winarno. Seolah-olah “wi” di depan Winarno adalah dari nama marga Oey. Oey-narno. Maaf bila ada Sodara njang tida berkenan. Nama ini sedang kami daftarken.
+
+Lebih landjoet, bolenja jullie samoewa simak ini toelisan dibawah, dari Oey Boen Than alias Bondan Oeynarno alias Bondan Winarno, perihal latar belakang berdirinja Kopitiam Oey.
+Recomended :
+teh boemboe India, Ish Tjintjaoe Djahe, Sego Ireng, Nasi brijani Ajam. "/>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

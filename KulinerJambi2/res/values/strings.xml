@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KulinerJambi2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_thehok">KulinerJambi</string>
+    <string name="title_activity_talang">KulinerJambi</string>
+    <string name="title_activity_tanjung">KulinerJambi</string>
+    <string name="title_activity_sipin">KulinerJambi</string>
+    <string name="title_activity_nasigorraj">KulinerJambi</string>
+    <string name="title_activity_ahui1">KulinerJambi</string>
+    <string name="title_activity_atong1">KulinerJambi</string>
+    <string name="title_activity_bakso1">KulinerJambi</string>
+    <string name="title_activity_chatime">KulinerJambi</string>
+    <string name="title_activity_dine_chat">KulinerJambi</string>
+    <string name="title_activity_haustea">KulinerJambi</string>
+    <string name="title_activity_kfc">KulinerJambi</string>
+    <string name="title_activity_kofeluv1">KulinerJambi</string>
+    <string name="title_activity_kopi">KulinerJambi</string>
+    <string name="title_activity_martabak1">KulinerJambi</string>
+    <string name="title_activity_miehijau">KulinerJambi</string>
+    <string name="title_activity_mitra1">KulinerJambi</string>
+    <string name="title_activity_pempek1">KulinerJambi</string>
+    <string name="title_activity_perahunelayan">KulinerJambi</string>
+    <string name="title_activity_piza">KulinerJambi</string>
+    <string name="title_activity_saimen">KulinerJambi</string>
+    <string name="title_activity_sarinande">KulinerJambi</string>
+    <string name="title_activity_sdrhana">KulinerJambi</string>
+    <string name="title_activity_serabi">KulinerJambi</string>
+    <string name="title_activity_siobak">KulinerJambi</string>
+    <string name="title_activity_srwijaya">KulinerJambi</string>
+    <string name="title_activity_sriwijaya">KulinerJambi</string>
+    <string name="title_activity_thehok2">KulinerJambi</string>
+    <string name="title_activity_tanjung2">KulinerJambi</string>
+    <string name="title_activity_talang2">KulinerJambi</string>
+    <string name="title_activity_talang3">KulinerJambi</string>
+    <string name="title_activity_talang4">KulinerJambi</string>
+    <string name="title_activity_sipin2">KulinerJambi</string>
+    <string name="title_activity_sipin3">KulinerJambi</string>
+    <string name="title_activity_sipin4">KulinerJambi</string>
+
+</resources>
